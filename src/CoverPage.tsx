@@ -138,7 +138,7 @@ const CoverPage: React.FC = () => {
               { text: 'Web Wizard', color: '#C3B1E1' },
               { text: 'Version Vault Keeper', color: '#A6B8C2' },
               { text: 'Code Poet', color: '#C17C57' }
-            ].map((badge, index) => (
+            ].map((badge, _) => (
               <div
                 key={badge.text}
                 className="px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wide text-center shadow-md"
